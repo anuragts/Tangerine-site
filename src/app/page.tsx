@@ -18,18 +18,19 @@ export default function Home() {
             So tangerine is currently in <span className="text-sky-400">development</span> .
 
           </p>
-          <p>
-            But you can try the tangerine KV store written from scratch.
-          </p>
+
         </div>
 
         <div>
+          <p className="my-2">
+            But you can try the <span className="text-orange-400"> tangerine KV store</span>   written from scratch.
+          </p>
           <p>
             Get started quickly with Docker:
           </p>
           <Command />
           <Link href="https://github.com/anuragts/tangerine" className="mt-6 text-sm  bg-gray-900 w-36 rounded-xl py-3 px-2 underline flex">
-            <Star className="h-15 w-15 text-yellow-500" /> <p className="mt-1 mx-2">the repository</p> 
+            <Star className="h-15 w-15 text-yellow-500" /> <p className="mt-1 mx-2">the repository</p>
           </Link>
         </div>
       </div>
