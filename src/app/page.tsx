@@ -4,7 +4,7 @@ import { Star } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="flex flex-col md:items-center justify-center p-24">
+    <main className="flex flex-col md:items-center justify-center py-24 px-4">
       <div>
         <h1 className="text-4xl font-bold">
           Tangerine 🍊
