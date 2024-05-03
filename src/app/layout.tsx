@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
+import Head from "next/head";
 
 
 import "cal-sans";
@@ -18,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+      <script defer src="https://analytics.us.umami.is/script.js" data-website-id="e6da6e38-963b-4fec-8c49-c197942ffc2c"></script>
+      </Head>
       <body className={""}>
         <ThemeProvider
           attribute="class"
