@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
 import Head from "next/head";
-
+import { Analytics } from "@vercel/analytics/react"
 
 import "cal-sans";
 
@@ -31,6 +31,7 @@ export default function RootLayout({
         >
           {children}
           <Footer />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
